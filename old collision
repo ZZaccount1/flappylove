@@ -1,0 +1,26 @@
+d1X = Pipes[whatPipe].x - Bird.x
+    d1Y = Pipes[whatPipe].y - (Bird.y + Bird.colliderSize/2)
+    d2X = (Bird.x - Bird.colliderSize/2) - Pipes[whatPipe].x + Pipes.sizeX
+    d2Y = (Bird.y + Bird.colliderSize/2) + Pipes[whatPipe].y
+
+    d1X_ = d1X
+    d1Y_ = d1Y
+    d2X_ = d2X
+    d2Y_ = d2Y
+
+    print("d1X: ", d1X, " > ", 0)
+    print("d1Y: ", d1Y, " > ", 0)
+    print("d2X: ", d2X, " > ", 0)
+    print("d2Y: ", d2Y, " > ", 0)
+
+    print("---------------------------------------")
+
+    if (d1X > 0.0 or d1Y < 0.0) then
+        return false
+    end
+
+    if (d2X > 0 or d2Y < 0) then
+        return false
+    end
+
+    return true
