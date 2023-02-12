@@ -1,0 +1,3 @@
+- [ ] Change sprites for copyright reasons
+- [ ] Write an small text in readme that this is my first code in lua and love2d so the code is very bad
+- [ ] In readme mention the assets source link
