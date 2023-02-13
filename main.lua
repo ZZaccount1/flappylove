@@ -151,6 +151,8 @@ function love.update(dt)
     
     if Bird.y + Bird.size > SCREEN_HEIGHT then
         isDead = true
+    elseif Bird.y < -50 then
+	isDead = true
     else
         Bird.dy = Bird.dy + gravity
     end

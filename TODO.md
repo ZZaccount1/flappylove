@@ -1,2 +1,3 @@
+- [x] Fix flying above pipes bug
+
 - [ ] Change sprites for copyright reasons
-- [ ] Fix flying above pipes bug
